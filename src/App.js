@@ -1,7 +1,7 @@
 // import { Button } from 'bootstrap';
 import React from 'react';
 import Buttons from './Components/Buttons';
-import Addg from './Components/forms/Addg';
+import AddForm from './Components/forms/Addform';
 
 
 // import './App.css';
@@ -9,8 +9,9 @@ import Addg from './Components/forms/Addg';
 function App() {
   return (
     <div className="App">
-    <Buttons/>
-    <Addg/>
+    <AddForm/>
+    {/* <Buttons/> */}
+   
     </div>
   );
 }
