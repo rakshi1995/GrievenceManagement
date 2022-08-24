@@ -5,8 +5,8 @@ import React from "react";
 export default function Table() {
   return (
     <>
-      <div className=" py-28 ">
-        <div className="flex justify-between  px-36">
+      <div className=" py-28 px-4">
+        <div className="lg:flex lg:items-center lg:justify-between lg:px-36 px-4 ">
           <div class="w-full sm:max-w-xs">
             <label for="search" class="sr-only">
               Search
@@ -36,7 +36,7 @@ export default function Table() {
               />
             </div>
           </div>
-          <div className="flex gap-x-4">
+          <div className="flex gap-x-4 lg:pt-0 pt-4">
           <button
               type="button"
               className="inline-flex items-center px-4 py-2 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-orange-500"
