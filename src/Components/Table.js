@@ -1,6 +1,6 @@
 import React from "react";
 import Dropdown from "./Dropdown-modals";
-
+import { BiFilterAlt } from "react-icons/bi";
 
 
 export default function Table() {
@@ -65,11 +65,11 @@ export default function Table() {
                 <th scope="col" className="py-3.5 pl-4 pr-4 text-left text-sm font-semibold text-gray-100 sm:pl-6">Sr.No.</th>
                 <th scope="col" className="px-4 py-3.5 text-left text-sm font-semibold text-gray-100">Grievance No.</th>
                 <th scope="col" className="px-4 py-3.5 text-left text-sm font-semibold text-gray-100">Property Id</th>
-                <th scope="col" className="py-3.5 pl-4 pr-4 text-left text-sm font-semibold text-gray-100 sm:pr-6">Type</th>
+                <th scope="col" className="py-3.5 pl-4 pr-4 text-left text-sm font-semibold text-gray-100 sm:pr-6 flex ">Type <BiFilterAlt className="ml-2"/></th>
                 <th scope="col" className="py-3.5 pl-4 pr-4 text-left text-sm font-semibold text-gray-100 sm:pl-6">Mobile Number</th>
-                <th scope="col" className="px-4 py-3.5 text-left text-sm font-semibold text-gray-100">Status</th>
+                <th scope="col" className="px-4 py-3.5 text-left text-sm font-semibold text-gray-100 flex">Status <BiFilterAlt className="ml-2"/></th>
                 <th scope="col" className="px-4 py-3.5 text-left text-sm font-semibold text-gray-100">Comments</th>
-                <th scope="col" className="py-3.5 pl-4 pr-4 text-left text-sm font-semibold text-gray-100 sm:pr-6">Reported At</th>
+                <th scope="col" className="py-3.5 pl-4 pr-4 text-left text-sm font-semibold text-gray-100 sm:pr-6 flex">Reported At <BiFilterAlt className="ml-2"/></th>
                 <th scope="col" className="px-4 py-3.5 text-left text-sm font-semibold text-gray-100">Last Activity At</th>
                 <th scope="col" className="py-3.5 pl-4 pr-4 text-center text-sm font-semibold text-gray-100 sm:pr-6">Action</th>
               </tr>
