@@ -6,7 +6,9 @@ import Dropdown from "./Dropdown-modals";
 export default function Table() {
   return (
     <>
-      <div className=" py-28 px-4">
+        <div className="flex justify-center pt-10"> <img src='/logo.png'></img></div>
+      <div className="py-10  px-4">
+  
         <div className="lg:flex lg:items-center lg:justify-between lg:px-36 px-4 ">
           <div class="w-full sm:max-w-xs">
             <label for="search" class="sr-only">
@@ -37,28 +39,9 @@ export default function Table() {
               />
             </div>
           </div>
+         
           <div className="flex gap-x-4 lg:pt-0 pt-4">
-          {/* <button
-              type="button"
-              className="inline-flex items-center px-4 py-2 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-orange-500"
-            >
-            ADD
-
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="w-6 h-6 ml-2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M12 9v6m3-3H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
-              </svg>
-            </button> */}
+         
             <Dropdown/>
             <button
               type="button"
@@ -66,7 +49,6 @@ export default function Table() {
             >
              No Grievance
             </button>
-           
           </div>
         </div>
        {/* Table section */}
