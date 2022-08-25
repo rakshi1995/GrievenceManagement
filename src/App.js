@@ -2,21 +2,19 @@
 import React from 'react';
 import Buttons from './Components/Buttons';
 import Addg from './Components/forms/Addg';
-import Table from './Components/Table';
+
+import User from './Components/Userdata/User-table';
 
 
 // import './App.css';
 
 function App() {
   return (
-    // <div className="App">
-    // <Buttons/>
-    // <Addg/>
-    // </div>
+  
     <>
-    
-      <Table/>
-     
+{/*     
+      <Table/> */}
+     <User/>
     </>
   );
 }
