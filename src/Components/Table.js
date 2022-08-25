@@ -1,4 +1,5 @@
 import React from "react";
+import Dropdown from "./Dropdown-modals";
 
 
 
@@ -31,13 +32,13 @@ export default function Table() {
                 id="search"
                 name="search"
                 class="block w-full bg-white border border-gray-300 rounded-md py-2 pl-10 pr-3 text-sm placeholder-gray-500 focus:outline-none focus:text-gray-900 focus:placeholder-gray-400 focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm "
-                placeholder="Search"
+                placeholder="search by "
                 type="search"
               />
             </div>
           </div>
           <div className="flex gap-x-4 lg:pt-0 pt-4">
-          <button
+          {/* <button
               type="button"
               className="inline-flex items-center px-4 py-2 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-orange-500"
             >
@@ -57,7 +58,8 @@ export default function Table() {
                   d="M12 9v6m3-3H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
-            </button>
+            </button> */}
+            <Dropdown/>
             <button
               type="button"
               className="inline-flex items-center px-8 py-2 border border-transparent text-base leading-4 font-medium rounded-md shadow-sm text-orange-500 bg-white hover:bg-orange-400 border-orange-500 hover:text-white "
@@ -87,7 +89,7 @@ export default function Table() {
                 <th scope="col" className="px-4 py-3.5 text-left text-sm font-semibold text-gray-100">Comments</th>
                 <th scope="col" className="py-3.5 pl-4 pr-4 text-left text-sm font-semibold text-gray-100 sm:pr-6">Reported At</th>
                 <th scope="col" className="px-4 py-3.5 text-left text-sm font-semibold text-gray-100">Last Activity At</th>
-                <th scope="col" className="py-3.5 pl-4 pr-4 text-left text-sm font-semibold text-gray-100 sm:pr-6">Action</th>
+                <th scope="col" className="py-3.5 pl-4 pr-4 text-center text-sm font-semibold text-gray-100 sm:pr-6">Action</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-200 bg-white">
@@ -102,7 +104,13 @@ export default function Table() {
                
                 <td className="whitespace-nowrap py-4 pl-4 pr-4 text-sm text-gray-500 sm:pr-6">Member</td>
                 <td className="whitespace-nowrap p-4 text-sm text-gray-500">djkdlds</td>
-                <td className="whitespace-nowrap py-4 pl-4 pr-4 text-sm text-gray-500 sm:pr-6">view document</td>
+                <td className="whitespace-nowrap py-4 pl-4 pr-4 text-sm text-gray-500 sm:pr-6 text-center">view document
+               <button>
+            <a href="#" class="text-blue-600 text-lg hover:text-indigo-700 pl-4">Edit</a>
+            </button>
+
+                </td>
+                
               </tr>
 
       
@@ -114,6 +122,7 @@ export default function Table() {
   </div>
 </div>
       </div>
+     
     </>
   );
 }
