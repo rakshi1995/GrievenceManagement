@@ -86,9 +86,9 @@ export default function Table() {
                
                 <td className="whitespace-nowrap py-4 pl-4 pr-4 text-sm text-gray-500 sm:pr-6">Member</td>
                 <td className="whitespace-nowrap p-4 text-sm text-gray-500">djkdlds</td>
-                <td className="whitespace-nowrap py-4 pl-4 pr-4 text-sm text-gray-500 sm:pr-6 text-center">view document
+                <td className="whitespace-nowrap py-4 pl-4 pr-4 text-sm text-gray-500 sm:pr-6 text-center">
                <button>
-            <a href="#" class="text-blue-600 text-lg hover:text-indigo-700 pl-4">Edit</a>
+            <a href="#" class="text-blue-600 text-base hover:text-indigo-700 pl-4">Edit</a>
             </button>
 
                 </td>
