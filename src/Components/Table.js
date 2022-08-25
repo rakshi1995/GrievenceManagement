@@ -7,7 +7,7 @@ export default function Table() {
   return (
     <>
         <div className="flex justify-center pt-10"> <img src='/logo.png'></img></div>
-      <div className="py-10  px-4">
+      <div className="py-10 px-4">
   
         <div className="lg:flex lg:items-center lg:justify-between lg:px-36 px-4 ">
           <div class="w-full sm:max-w-xs">
@@ -34,7 +34,7 @@ export default function Table() {
                 id="search"
                 name="search"
                 class="block w-full bg-white border border-gray-300 rounded-md py-2 pl-10 pr-3 text-sm placeholder-gray-500 focus:outline-none focus:text-gray-900 focus:placeholder-gray-400 focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm "
-                placeholder="search by "
+                placeholder="search by status,date and type "
                 type="search"
               />
             </div>

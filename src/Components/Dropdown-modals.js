@@ -36,7 +36,7 @@ export default function Dropdown() {
                 {/*header*/}
               
                 {/*body*/}
-                <div className="relative p-6 flex-auto ">
+                <div className=" p-6 flex-auto ">
                 <div>
   <label for="grievances" class="block text-sm font-medium text-gray-700">Select Grievances</label>
   <select id="grievances" name="grievances" class="mt-4 border p-3 ">
