@@ -14,9 +14,9 @@ function App() {
     // <Addg/>
     // </div>
     <>
-    <div className='bg-sky-200'>
+    
       <Table/>
-      </div>
+     
     </>
   );
 }
